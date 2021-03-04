@@ -1,0 +1,57 @@
+body {
+    background: url('./Assetts/mvd_mackarelcove_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutme {
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#prosummary {
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#myportfolio {
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#contactme {
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.text-box {
+    margin: 0 10px 0 0;
+    width: 30%;
+}
+
+.portfolio-item {
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul#contact-list li {
+    display:inline;
+    padding-right: 5em;
+  }
