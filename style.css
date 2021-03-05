@@ -35,9 +35,9 @@ html {
 }
 
 #contactme {
-    align-items: center;
     padding-top: 300px;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
+    align-items: center;
 }
 
 .text-box {
@@ -51,7 +51,15 @@ html {
     padding: 10px;
 }
 
-ul#contact-list li {
-    display:inline;
-    padding-right: 5em;
-  }
+.contact-list {
+    font-size: 1.5em;
+    justify-items: center;
+    text-align: center;
+    color:  #336699;
+    padding-bottom: 20px;
+}
+
+.contact-list a {
+    color:  #336699;
+    margin-bottom: 20px;
+}
